@@ -46,14 +46,14 @@ The results above made me wonder whether there was a trend with word count as th
 ## Correlation Between Proportion of Words a Character Speaks and IMDb Rating
 I performed the same analysis described in the section above, but instead of using word count, I used proportion of the total words spoken by a character in an episode. However, this change had little no impact on the results. The results from above stand. 
 
-# Correlation Between Location of Dialogue and IMDb Rating
+## Correlation Between Location of Dialogue and IMDb Rating
 To consider location an additional pivot table was created showing how many words were spoken in each location across all episodes. As with the character analysis, we will first consider raw word count, then consider proportion of words. 
 
 Reasonableness checks confirmed that our pivot table seemed reasonable. 
 
 I found that the Power Plant has the highest positive correlation with IMDb rating whereas 'Springfield Street' and 'Springfield' both had the highest negative correlation. However, when considering how often these episodes appeared in later episodes. I found that the power plant appears less frequently in later episodes, whereas 'Springfield Street' and 'Springfield' both appear more often. Again, we cannot say that these episodes are directly responsible for higher/lower IMDb scores.
 
-# Proportion of Dialogue Spoken in Top 5, 10 and 20 Locations
+## Proportion of Dialogue Spoken in Top 5, 10 and 20 Locations
 Our entire data set contained 1,300,000 words being spoken. The top 5 locations account for around 34% of all dialogue spoken. The top 20 locations account for around 38% of all dialogue spoken. The top 20 locations account for around 44% of all dialogue spoken. This led me to wonder whether there was a link between the IMDb score, and the more unusual the locations.
 
 As a big fan of the show in the early years, one of the issues, in my opinion was the growing reliance on new locations (for example, visiting Japan and the UK). I wondered if there was connection between how much time was spent in the more standard locations and quality of episode. We will now create a new column in our pivot table, to calculate the total words spoken in the top 5, 10 and 20 locations per episode.
